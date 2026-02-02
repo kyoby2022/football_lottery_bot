@@ -1,0 +1,45 @@
+# 忽略 Python 编译字节码
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境
+venv/
+.venv/
+env/
+
+# 忽略环境变量配置文件（通常包含敏感 API Key）
+.env
+
+# 忽略数据库文件
+*.sqlite3
+
+
+# 忽略编译产物
+build/
+.dart_tool/
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+
+# 忽略特定的机密文件
+ios/Flutter/Generated.xcconfig
+android/local.properties
+
+# 忽略 macOS 系统生成的隐藏文件
+.DS_Store
+
+# 忽略 Windows 缩略图缓存
+Thumbs.db
+
+
+# log/：忽略整个 log 文件夹。
+
+# *.log：忽略所有以 .log 结尾的文件。
+
+# config.php：忽略特定的 config.php 文件。
+
+# !important.log：不忽略 important.log（即使上面设置了忽略所有 .log）。
+
+# 如果你不确定某种语言该忽略哪些文件，可以访问 toptal.com/developers/gitignore。 
+# 在该网站输入你的开发环境（例如输入 Python, Flutter, Windows），它会自动生成一份完整的配置清单，你直接复制粘贴到 .gitignore 文件中即可。
